@@ -17,5 +17,6 @@ public class LoginPoi  {
 	public void data() {
 		login=PageFactory.initElements(driver, Login.class);
 		login.login("Admin", "admin123");
+		System.out.println("satya");
 	}
 }
